@@ -1,0 +1,139 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --white: #ffffff;
+  --dark: #2e2f42;
+  --light-color: #f4f4fd;
+  --text: #434455;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+}
+body {
+  font-family: var(--primary-font);
+  color: var(--text);
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--pressed-state);
+}
+
+.hat {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hat-nav-list {
+  font-weight: 500;
+}
+.hat-nav-list-links {
+  color: var(--dark);
+}
+
+.hat-address-list {
+  font-style: normal;
+}
+
+.hat-address-list-contacts {
+  color: var(--text);
+}
+
+h1 {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+.hero-button {
+  color: var(--white);
+  background-color: var(--primary-brand);
+  cursor: pointer;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark);
+}
+
+.hero {
+  background-color: var(--dark);
+}
+
+.advantages-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.advantages-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.products-title {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.team {
+  background-color: var(--light-color);
+}
+
+.team-list-card {
+  background-color: var(--white);
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.team-list-card-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.team-list-card-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.foot {
+  background-color: var(--dark);
+}
+
+.foot-text {
+  color: var(--light-color);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sorting-buttons-list-button {
+  color: var(--primary-brand);
+  background-color: var(--light-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.portfolio-list-link-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.portfolio-list-link-text {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 24px;
+}
