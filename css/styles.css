@@ -30,7 +30,9 @@ body {
 
 .hat-nav-logo.link,
 .list-links.link,
-.hat-address-list-contacts.link {
+.hat-address-list-contacts.link,
+.foot-logo.link,
+.portfolio-list.link {
   text-decoration: none;
 }
 
@@ -41,6 +43,7 @@ body {
 .list {
   list-style: none;
 }
+
 .list-links {
   font-weight: 500;
   font-size: 16px;
@@ -69,17 +72,28 @@ body {
   color: var(--text);
 }
 
-h1 {
+.hero-title {
   color: var(--white);
   text-align: center;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   color: var(--white);
   background-color: var(--primary-brand);
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state);
 }
 
 h2,
@@ -98,15 +112,20 @@ h6 {
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .advantages-text {
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 .products-title {
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team {
@@ -130,16 +149,32 @@ h6 {
 .team-list-card-text {
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 .foot {
   background-color: var(--dark);
 }
 
+.foot-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+
+.foot-logo-studio {
+  color: var(--light-color);
+}
+
 .foot-text {
   color: var(--light-color);
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 .sorting-buttons-list-button {
@@ -149,16 +184,26 @@ h6 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  font-family: var(--primary-font);
+  letter-spacing: 0.04em;
+}
+.sorting-buttons-list-button:hover,
+.sorting-buttons-list-button:focus {
+  color: var(--white);
+  background-color: var(--pressed-state);
 }
 
 .portfolio-list-link-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 
 .portfolio-list-link-text {
   color: var(--text);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
