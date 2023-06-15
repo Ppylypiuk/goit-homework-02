@@ -8,17 +8,14 @@
   --primary-brand: #4d5ae5;
   --pressed-state: #404bbf;
 }
+
 body {
   font-family: var(--primary-font);
   color: var(--text);
   background-color: var(--white);
 }
 
-.hat {
-  font-size: 16px;
-  line-height: 24px;
-}
-.hat-nav-logo {
+.hat-logo {
   color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -28,24 +25,19 @@ body {
   text-transform: uppercase;
 }
 
-.hat-nav-logo.link,
-.list-links.link,
-.hat-address-list-contacts.link,
-.foot-logo.link,
-.portfolio-list.link {
-  text-decoration: none;
+.hat-logo-stud {
+  color: var(--dark);
 }
 
-.hat-nav-logo-studio {
-  color: var(--dark);
+.link {
+  text-decoration: none;
 }
 
 .list {
   list-style: none;
-  line-height: 1.5;
 }
 
-.list-links {
+.nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -53,22 +45,18 @@ body {
   color: var(--dark);
 }
 
-.list-links:hover,
-.list-links:focus,
-.hat-address-list-contacts.link:hover,
-.hat-address-list-contacts.link:focus {
-  color: #404bbf;
+.nav-item.link:hover,
+.nav-item.link:focus,
+.hat-address-item:hover,
+.hat-address-item:focus {
+  color: var(--pressed-state);
 }
 
 .hat-address {
   font-style: normal;
 }
 
-.hat-address.list {
-  list-style: none;
-}
-
-.hat-address-list-contacts {
+.hat-address-item {
   letter-spacing: 0.02em;
   color: var(--text);
 }
@@ -97,27 +85,19 @@ body {
   background-color: var(--pressed-state);
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--dark);
-}
-
 .hero {
   background-color: var(--dark);
 }
 
 .advantages-title {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
 .advantages-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -146,16 +126,16 @@ h6 {
   text-transform: capitalize;
 }
 
-.team-list-card-title {
+.class="team-card-title" {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
 
-.team-list-card-text {
+.team-card-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -180,27 +160,27 @@ h6 {
 .foot-text {
   color: var(--light-color);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.sorting-buttons-list-button {
+.sorting-button {
   color: var(--primary-brand);
   background-color: var(--light-color);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-family: var(--primary-font);
   letter-spacing: 0.04em;
 }
-.sorting-buttons-list-button:hover,
-.sorting-buttons-list-button:focus {
+.sorting-button:hover,
+.sorting-button:focus {
   color: var(--white);
   background-color: var(--pressed-state);
 }
 
-.portfolio-list-link-title {
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -208,7 +188,7 @@ h6 {
   color: var(--dark);
 }
 
-.portfolio-list-link-text {
+.portfolio-text {
   color: var(--text);
   font-size: 16px;
   line-height: 1.5;
