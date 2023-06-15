@@ -57,6 +57,8 @@ body {
 }
 
 .hat-address-item {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
 }
@@ -90,6 +92,7 @@ body {
 }
 
 .advantages-title {
+  color: var(--dark);
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
@@ -102,6 +105,7 @@ body {
 }
 
 .products-title {
+  color: var(--dark);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -118,6 +122,7 @@ body {
 }
 
 .team-title {
+  color: var(--dark);
   font-size: 36px;
   line-height: 40px;
   line-height: 1.11;
@@ -126,10 +131,14 @@ body {
   text-transform: capitalize;
 }
 
-.class="team-card-title" {
+.team-card {
+  background-color: var(--white);
+}
+
+.team-card-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  font-weight: 500;
   letter-spacing: 0.02em;
 }
 
