@@ -117,10 +117,6 @@ body {
   background-color: var(--light-color);
 }
 
-.team-list-card {
-  background-color: var(--white);
-}
-
 .team-title {
   color: var(--dark);
   font-size: 36px;
