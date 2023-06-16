@@ -45,8 +45,8 @@ body {
   color: var(--dark);
 }
 
-.nav-item.link:hover,
-.nav-item.link:focus,
+.nav-item:hover,
+.nav-item:focus,
 .hat-address-item:hover,
 .hat-address-item:focus {
   color: var(--pressed-state);
